@@ -14,4 +14,4 @@ jobs:
       # Run Spectral
       - uses: stoplight.io/spectral-action@v0.6.1
         with:
-          file_glob: 'doc/api/*.yaml'
+          file_glob: 'doc/api/*.{json,yml,yaml}
